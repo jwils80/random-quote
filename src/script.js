@@ -1,13 +1,13 @@
 console.log('👍 JS Connected');
 
 // Tailwind Background Utlities
-const backgrounds = ["bg-red-300", "bg-green-300", "bg-blue-300"];
+const backgrounds = ["bg-blue-500", "bg-pink-500", "bg-blue-300"];
 
 // Sample design quotes JSON data
 const quotes = [
   {
-    quote: "Quote 0",
-    author: "Citation 0"
+    quote: "Don't do stupid shit.",
+    author: "Love, Mom"
   },
   {
     quote: "Quote 1",
