@@ -1,6 +1,6 @@
-# Randomized Design Inspiration
+# Mom said what?
 
-> Randomized inpspiration to hopefully spark design ideas. 
+> Things I never thought I'd say as a mom, and some things that I say often. 
 
 ## What is this?
 - Website that generates random quotes and colors of inspiration.
