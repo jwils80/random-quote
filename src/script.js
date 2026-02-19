@@ -1,7 +1,7 @@
 console.log('👍 JS Connected');
 
 // Tailwind Background Utlities
-const backgrounds = ["bg-blue-500", "bg-pink-500", "bg-blue-300"];
+const backgrounds = ["bg-purple-500", "bg-pink-500", "bg-yellow-300"];
 
 // Sample design quotes JSON data
 const quotes = [
@@ -10,12 +10,24 @@ const quotes = [
     author: "Love, Mom"
   },
   {
-    quote: "Quote 1",
-    author: "Citation 1"
+    quote: "Mean People Suck",
+    author: "Mom Wisdom"
   },
   {
-    quote: "Quote 2",
-    author: "Citation 2"
+    quote: "In my defense, the mooon was full and I was left unsupervised",
+    author: "Mom excuses"
+  },
+  {
+    quote: "Stay wild Moon Child",
+    author: "Mom"
+  },
+  {
+    quote: "I love you more than coffee, but please don't make me prove it",
+    author: "Mom"
+  },
+  {
+    quote: "I run on coffee, chaos, and tiny humans who need snacks every 12 minutes.",
+    author: "Surviving on Coffee and Chaos gpt"
   }
 ];
 
