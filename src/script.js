@@ -29,6 +29,10 @@ const quotes = [
   {
     quote: "I run on coffee, chaos, and tiny humans who need snacks every 12 minutes.",
     author: "Surviving on Coffee and Chaos gpt"
+  },
+  {
+    quote: "I survived toddler tantrums. You think I’m scared of eye rolls?",
+    
   }
 ];
 
