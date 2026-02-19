@@ -1,7 +1,8 @@
 console.log('👍 JS Connected');
 
-// Tailwind Background Utlities
-const backgrounds = ["bg-purple-500", "bg-pink-500", "bg-yellow-300"];
+// Tailwind Background Utilities with matching borders
+const backgrounds = ["bg-purple-800", "bg-pink-500", "bg-yellow-300"];
+const borders = ["border-purple-800", "border-pink-500", "border-yellow-300"];
 
 // Sample design quotes JSON data
 const quotes = [
@@ -14,7 +15,7 @@ const quotes = [
     author: "Mom Wisdom"
   },
   {
-    quote: "In my defense, the mooon was full and I was left unsupervised",
+    quote: "In my defense, the moon was full and I was left unsupervised",
     author: "Mom excuses"
   },
   {
@@ -49,10 +50,14 @@ function getRandomQuote() {
   // Get random background
   const randomBgIndex = Math.floor(Math.random() * backgrounds.length);
   const newBackground = backgrounds[randomBgIndex];
+  const newBorder = borders[randomBgIndex];
 
-  // Replace entire class attribute
-  body.className = `${newBackground} min-h-screen flex items-center justify-center transition-all duration-700`;
+  // Replace entire class attribute with background and border colors
+  body.className = `${newBackground} ${newBorder} min-h-screen flex items-center justify-center transition-all duration-700 border-8`;
 }
 
 // Add event listener to button
 refreshBtn.addEventListener("click", getRandomQuote);
+
+// Call once on page load to set initial background and quote
+getRandomQuote();
